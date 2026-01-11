@@ -1,4 +1,148 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from en!"
+	"locales": {
+		"german": "Deutsch",
+		"english": "English",
+		"swedish": "Svenska"
+	},
+	"cookie": {
+		"title": "Cookies",
+		"label": "Essential Cookies",
+		"text": "We use cookies solely to recognize your browser's language settings and display content in your preferred language. No other data is collected or stored.",
+		"button": "Got it",
+		"link": "Go to Privacy Policy"
+	},
+	"imprint": {
+		"title": "Legal Notice",
+		"company_name": "Company Name",
+		"address": "Address",
+		"zip": "Postal Code",
+		"country": "Country",
+		"represented": "Represented by",
+		"owner": "Owner/Manager",
+		"register": {
+			"title": "Registration Information",
+			"commercial": "Commercial Register",
+			"number": "Registration Number"
+		},
+		"image": "Image usage"
+	},
+	"privacy": {
+		"title": "Privacy Policy",
+		"introduction": {
+			"title": "Introduction",
+			"text": "At Bonani Ngcobo, we are committed to protecting your privacy. This Privacy Policy explains how we handle the minimal data we process when you visit our website www.bonani.com."
+		},
+		"data": {
+			"title": "Data Collection and Use",
+			"text": "We do not collect personal identification information from users of our website. The only data we process is related to browser language settings to provide content in the preferred language of the user."
+		},
+		"language": {
+			"title": "Browser Language Settings",
+			"bulletpoint_one_title": "Purpose",
+			"bulletpoint_one": "We use the language settings from your browser to automatically display content in your preferred language.",
+			"bulletpoint_two_title": "No Storage",
+			"bulletpoint_two": "We do not store or retain this language preference data.",
+			"bulletpoint_three_title": "No Identification",
+			"bulletpoint_three": "We do not use this data to identify individual users or link it to any personal data."
+		},
+		"security": {
+			"title": "Data Security",
+			"text": "Even though we do not collect personal data, we use standard security measures to protect our website from unauthorized access and to ensure a safe browsing experience."
+		},
+		"thirdParty": {
+			"title": "Third-Party Services",
+			"text": "We do not share any data with third-party services. There is no data collection that requires external processing."
+		},
+		"rights": {
+			"title": "Your rights",
+			"text": "Since we do not collect or store personal data, there are no additional rights applicable under data protection laws concerning data access, correction, or deletion."
+		},
+		"changes": {
+			"title": "Changes to This Privacy Policy",
+			"text": "We may update this Privacy Policy to reflect changes in our practices. We will notify you of any changes by posting the new Privacy Policy on this page."
+		},
+		"contact": {
+			"title": "Contact Us",
+			"text": "If you have any questions about this Privacy Policy, please contact us: bonaniengcobo@gmail.com"
+		}
+	},
+	"navbar": {
+		"about": "About",
+		"values": "Values",
+		"whatwedo": "What we do",
+		"contact": "Contact & Help"
+	},
+	"headline": {
+		"title": "Our vision",
+		"subtitle": "Creating a safe place for children to thrive"
+	},
+	"about": {
+		"smallTitle": "About",
+		"title": "Our Mission",
+		"text": "We recognize that many children in Engcobo are behind in their development because of a lack of security and care. Our mission is to provide a safe environment for children and young adults to develop healthily in all areas. To strengthen families and create opportunities for parents to meet the needs of their children."
+	},
+	"organization": {
+		"smallTitle": "Organization",
+		"title": "Rooted in Faith",
+		"text": "We are a faith-based organization that follows the teachings of God's word in the Bible."
+	},
+	"education": {
+		"title": "Education",
+		"text": "Education is one of the greatest protective factors against substance abuse, violence, teenage pregnancy and school dropouts. Therefore we want to support the local schools and learners by providing Afterschool programs for primary schools."
+	},
+	"family": {
+		"title": "Family strengthening",
+		"text": "Every child needs to be loved and cared for. Strong and positive bonds with involved parents reduce the potential for a child to develop a destructive lifestyle."
+	},
+	"health": {
+		"title": "Health & Nurturing",
+		"text": "Both children and adults need to be healthy in all areas; physically, emotionally, and spiritually to thrive and develop."
+	},
+	"values": {
+		"title": "Our values",
+		"smallTitle": "Train up a child in the way he should go: and when he is old, he will not depart from it. Proverbs 22:6",
+		"value_one": "Do things through God’s word",
+		"value_one_text": "We believe in finding value in God’s word.",
+		"value_two": "Others first",
+		"value_two_text": "We value selfless living serving one another through Jesus Christ’s example",
+		"value_three": "Doing things together",
+		"value_three_text": "We value working as a team in humility, celebrating each other’s gifts",
+		"value_four": "Families",
+		"value_four_text": "We believe healthy families make a healthy community in a godly structure.",
+		"value_five": "Accountability",
+		"value_five_text": "We value working with people from the outside, mentors, church, and supporters."
+	},
+	"whatwedo": {
+		"title": "What we do",
+		"school_title": "Afterschool tutoring & games",
+		"school_text": "We provide face-to-face and e-learning Afterschool programs run by trained tutors. Help is given with homework and difficult subjects. We created a safe environment to play fun and educational games.",
+		"kitchen_title": "Soup Kitchen",
+		"kitchen_text": "Children receive a healthy meal every weekday. We focus on healthy nutrition with fresh vegetables from our veggie tunnel.",
+		"family_title": "Family strengthening",
+		"family_text": "We offer counselling and parenting skills for parents, especially young parents, single parents, and those who have lost their spouse. We also offer training on financial management and skills development for unemployed parents.",
+		"arts_title": "Arts and culture",
+		"arts_text": "We teach many different forms of dance including cultural, spiritual and modern dance. Children engage in art, music and singing as well. It is our vision to see all our children thrive. Sports keep our children active and physically fit, as well as having fun."
+	},
+	"contact": {
+		"smallTitle": "Contact",
+		"title": "Get in touch"
+	},
+	"donate": {
+		"smallTitle": "Donate",
+		"title": "How to help us",
+		"paypal": "Donate via PayPal here",
+		"bank": "Show Bank details",
+		"payment": "Payment Reference"
+	},
+	"socialMedia": {
+		"follow_instagram": "Follow us on Instagram"
+	},
+	"footer": {
+		"location": "View on Google Maps",
+		"phone": "Call",
+		"mail": "Send Email",
+		"insta": "Follow on Instagram",
+		"impressum": "Imprint",
+		"privacy": "Privacy"
+	}
 }

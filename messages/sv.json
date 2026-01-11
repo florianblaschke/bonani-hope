@@ -1,4 +1,148 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from sv!"
+	"locales": {
+		"german": "Deutsch",
+		"english": "English",
+		"swedish": "Svenska"
+	},
+	"cookie": {
+		"title": "Cookies",
+		"label": "Nödvändiga cookies",
+		"text": "Vi använder cookies enbart för att känna igen din webbläsares språkinställningar och visa innehåll på ditt föredragna språk. Inga andra data samlas in eller lagras.",
+		"button": "Förstått",
+		"link": "Till integritetspolicyn"
+	},
+	"imprint": {
+		"title": "Juridisk Information",
+		"company_name": "Företagsnamn",
+		"address": "Adress",
+		"zip": "Postnummer",
+		"country": "Land",
+		"represented": "Representerad av",
+		"owner": "Ägare/Manager",
+		"register": {
+			"title": "Registreringsinformation",
+			"commercial": "Kommersiellt register",
+			"number": "Registreringsnummer"
+		},
+		"image": "Användning av bild"
+	},
+	"privacy": {
+		"title": "Integritetspolicy",
+		"introduction": {
+			"title": "Introduktion",
+			"text": "På Bonani Ngcobo är vi engagerade i att skydda din integritet. Denna integritetspolicy förklarar hur vi hanterar de minimala data vi behandlar när du besöker vår webbplats www.bonani.com."
+		},
+		"data": {
+			"title": "Insamling och användning av data",
+			"text": "Vi samlar inte in personlig identifierbar information från användare av vår webbplats. De enda data vi behandlar är relaterade till webbläsarens språkinställningar för att tillhandahålla innehåll på användarens föredragna språk."
+		},
+		"language": {
+			"title": "Webbläsarens språkinställningar",
+			"bulletpoint_one_title": "Syfte",
+			"bulletpoint_one": "Vi använder språkinställningarna från din webbläsare för att automatiskt visa innehåll på ditt föredragna språk.",
+			"bulletpoint_two_title": "Ingen lagring",
+			"bulletpoint_two": "Vi lagrar eller behåller inte dessa språkinställningsdata.",
+			"bulletpoint_three_title": "Ingen identifiering",
+			"bulletpoint_three": "Vi använder inte dessa data för att identifiera enskilda användare eller koppla dem till några personuppgifter."
+		},
+		"security": {
+			"title": "Datasäkerhet",
+			"text": "Även om vi inte samlar in personuppgifter, använder vi standardmässiga säkerhetsåtgärder för att skydda vår webbplats mot obehörig åtkomst och för att säkerställa en trygg surfupplevelse."
+		},
+		"thirdParty": {
+			"title": "Tredjepartstjänster",
+			"text": "Vi delar inte några data med tredjepartstjänster. Det finns ingen datainsamling som kräver extern behandling."
+		},
+		"rights": {
+			"title": "Dina rättigheter",
+			"text": "Eftersom vi inte samlar in eller lagrar personuppgifter finns det inga ytterligare rättigheter tillämpliga enligt dataskyddslagarna vad gäller tillgång till data, rättelse eller radering."
+		},
+		"changes": {
+			"title": "Ändringar i denna integritetspolicy",
+			"text": "Vi kan uppdatera denna integritetspolicy för att återspegla ändringar i våra metoder. Vi kommer att meddela dig om ändringar genom att publicera den nya integritetspolicyn på denna sida."
+		},
+		"contact": {
+			"title": "Kontakta oss",
+			"text": "Om du har några frågor om denna integritetspolicy, vänligen kontakta oss: bonaniengcobo@gmail.com"
+		}
+	},
+	"navbar": {
+		"about": "Om oss",
+		"values": "Värden",
+		"whatwedo": "Vad vi gör",
+		"contact": "Kontakt & hjälp"
+	},
+	"headline": {
+		"title": "Vår vision",
+		"subtitle": "att skapa en säker plats för barn blomstra"
+	},
+	"about": {
+		"smallTitle": "Om oss",
+		"title": "Vårt uppdrag",
+		"text": "Vi är medvetna om att många barn i Engcobo ligger efter i sin utveckling på grund av brist på trygghet och omsorg. Vårt uppdrag är att erbjuda en trygg miljö för barn och unga vuxna så att de kan utvecklas på ett hälsosamt sätt inom alla områden. Att stärka familjer och skapa möjligheter för föräldrar att tillgodose sina barns behov."
+	},
+	"organization": {
+		"smallTitle": "Organisation",
+		"title": "Förankrad i tro",
+		"text": "Vi är en trosbaserad organisation som följer läran i Guds ord i Bibeln."
+	},
+	"education": {
+		"title": "Utbildning",
+		"text": "Utbildning är en av de största skyddsfaktorerna mot drogmissbruk, våld, tonårsgraviditeter och skolavhopp. Därför vill vi stödja de lokala skolorna och eleverna genom att tillhandahålla eftermiddagsverksamhet för grundskolorna."
+	},
+	"family": {
+		"title": "Stärkande av familjen",
+		"text": "Varje barn behöver älskas och tas om hand. Starka och positiva band med engagerade föräldrar minskar risken för att ett barn ska utveckla en destruktiv livsstil."
+	},
+	"health": {
+		"title": "Hälsa och omvårdnad",
+		"text": "Både barn och vuxna behöver vara friska på alla områden; fysiskt, känslomässigt och andligt för att trivas och utvecklas."
+	},
+	"values": {
+		"title": "Våra värderingar",
+		"smallTitle": "Uppfostra ett barn på den väg det skall gå, och när det blir gammalt skall det inte vika av från den. Ordspråksboken 22:6",
+		"value_one": "Göra saker genom Guds ord",
+		"value_one_text": "Vi tror på att finna värde i Guds ord.",
+		"value_two": "Andra först",
+		"value_two_text": "Vi värdesätter ett osjälviskt liv där vi tjänar varandra genom Jesus Kristus exempel",
+		"value_three": "Att göra saker tillsammans",
+		"value_three_text": "Vi värdesätter att arbeta som ett team i ödmjukhet och att hylla varandras gåvor",
+		"value_four": "Familjer",
+		"value_four_text": "Vi tror att sunda familjer skapar en sund gemenskap i en gudfruktig struktur.",
+		"value_five": "Ansvarsskyldighet",
+		"value_five_text": "Vi värdesätter att arbeta med människor utifrån, mentorer, kyrkan och supportrar."
+	},
+	"whatwedo": {
+		"title": "Vad vi gör",
+		"school_title": "Undervisning och spel efter skoltid",
+		"school_text": "Vi erbjuder personliga program och e-lärande efter skoltid som drivs av utbildade handledare. Hjälp ges med läxor och svåra ämnen. Vi skapar en trygg miljö där man kan spela roliga och lärorika spel.",
+		"kitchen_title": "Soppkök",
+		"kitchen_text": "Barnen får en hälsosam måltid varje vardag. Vi fokuserar på hälsosam kost med färska grönsaker från vår grönsakstunnel.",
+		"family_title": "Stärkande av familjen",
+		"family_text": "Vi erbjuder rådgivning och föräldrautbildning för föräldrar, särskilt unga föräldrar, ensamstående föräldrar och föräldrar som har förlorat sin make/maka. Vi erbjuder också utbildning i ekonomisk förvaltning och kompetensutveckling för arbetslösa föräldrar.",
+		"arts_title": "Konst och kultur",
+		"arts_text": "Vi undervisar i många olika former av dans, bland annat kulturell, andlig och modern dans. Barnen ägnar sig också åt konst, musik och sång. Det är vår vision att se alla våra barn trivas. Idrott håller våra barn aktiva och fysiskt vältränade, samtidigt som de har roligt."
+	},
+	"contact": {
+		"smallTitle": "Kontakt",
+		"title": "Ta kontakt med oss"
+	},
+	"donate": {
+		"smallTitle": "Donera",
+		"title": "Hur du kan hjälpa oss",
+		"paypal": "Donera via PayPal här",
+		"bank": "Visa bankuppgifter",
+		"payment": "Betalningsreferens"
+	},
+	"socialMedia": {
+		"follow_instagram": "Följ oss på Instagram"
+	},
+	"footer": {
+		"location": "Visa på Google Maps",
+		"phone": "Ring",
+		"mail": "Skicka e-post",
+		"insta": "Följ på Instagram",
+		"impressum": "Juridisk information",
+		"privacy": "Integritet"
+	}
 }

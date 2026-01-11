@@ -1,4 +1,148 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from de!"
+	"locales": {
+		"german": "Deutsch",
+		"english": "English",
+		"swedish": "Svenska"
+	},
+	"cookie": {
+		"title": "Cookies",
+		"label": "Essentielle Cookies",
+		"text": "Wir nutzen Cookies lediglich, um die Spracheinstellungen Ihres Browsers zu erkennen und Ihnen Inhalte in Ihrer bevorzugten Sprache anzuzeigen. Es werden keine weiteren Daten gesammelt oder gespeichert.",
+		"button": "Verstanden",
+		"link": "Zur Datenschutzrichtlinie"
+	},
+	"imprint": {
+		"title": "Impressum",
+		"company_name": "Firmenname",
+		"address": "Adresse",
+		"zip": "Postleitzahl",
+		"country": "Land",
+		"represented": "Repräsentiert durch",
+		"owner": "Besitzer/Manager",
+		"register": {
+			"title": "Information zur Registration",
+			"commercial": "Kommerzielles Register",
+			"number": "Registrierungsnummer"
+		},
+		"image": "Fotonutzung"
+	},
+	"privacy": {
+		"title": "Datenschutzrichtlinie",
+		"introduction": {
+			"title": "Einführung",
+			"text": "Bei Bonani Ngcobo legen wir großen Wert auf den Schutz Ihrer Privatsphäre. Diese Datenschutzrichtlinie erklärt, wie wir mit den minimalen Daten umgehen, die wir verarbeiten, wenn Sie unsere Website www.bonani.com besuchen."
+		},
+		"data": {
+			"title": "Datenverarbeitung und -nutzung",
+			"text": "Wir erheben keine personenbezogenen Daten von Nutzern unserer Website. Die einzigen Daten, die wir verarbeiten, beziehen sich auf die Spracheinstellungen Ihres Browsers, um Inhalte in der bevorzugten Sprache des Nutzers anzuzeigen."
+		},
+		"language": {
+			"title": "Browser-Spracheinstellungen",
+			"bulletpoint_one_title": "Zweck",
+			"bulletpoint_one": "Wir verwenden die Spracheinstellungen Ihres Browsers, um Inhalte automatisch in Ihrer bevorzugten Sprache anzuzeigen.",
+			"bulletpoint_two_title": "Keine Speicherung",
+			"bulletpoint_two": "Wir speichern oder behalten diese Spracheinstellungsdaten nicht.",
+			"bulletpoint_three_title": "Keine Identifikation",
+			"bulletpoint_three": "Wir verwenden diese Daten nicht, um einzelne Nutzer zu identifizieren oder diese Daten mit personenbezogenen Daten zu verknüpfen."
+		},
+		"security": {
+			"title": "Datensicherheit",
+			"text": "Obwohl wir keine personenbezogenen Daten sammeln, verwenden wir standardmäßige Sicherheitsmaßnahmen, um unsere Website vor unbefugtem Zugriff zu schützen und eine sichere Nutzung zu gewährleisten."
+		},
+		"thirdParty": {
+			"title": "Drittanbieter-Dienste",
+			"text": "Wir teilen keine Daten mit Drittanbietern. Es gibt keine Datensammlung, die eine externe Verarbeitung erfordert."
+		},
+		"rights": {
+			"title": "Ihre Rechte",
+			"text": "Da wir keine personenbezogenen Daten sammeln oder speichern, gibt es keine zusätzlichen Rechte nach den Datenschutzgesetzen bezüglich des Zugriffs auf Daten, deren Berichtigung oder Löschung."
+		},
+		"changes": {
+			"title": "Änderungen dieser Datenschutzrichtlinie",
+			"text": "Wir können diese Datenschutzrichtlinie aktualisieren, um Änderungen in unseren Praktiken widerzuspiegeln. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen."
+		},
+		"contact": {
+			"title": "Kontaktieren Sie uns",
+			"text": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte: bonaniengcobo@gmail.com"
+		}
+	},
+	"navbar": {
+		"about": "Über uns",
+		"values": "Werte",
+		"whatwedo": "Was wir tun",
+		"contact": "Kontakt & Helfen"
+	},
+	"headline": {
+		"title": "Unsere Vision",
+		"subtitle": "ein sicherer Ort für die Entwicklung von Kindern"
+	},
+	"about": {
+		"smallTitle": "Über",
+		"title": "Unsere Mission",
+		"text": "In Engcobo erleben viele Kinder auf Grund von mangelnder Fürsorge und Sicherheit eine verzögerte Entwicklung. Unser Ziel ist es, eine sichere Umgebung für Kinder und junge Erwachsene zu schaffen damit sie sich in allen Bereichen gesund entwickeln können. Dabei legen wir besonderen Wert darauf, Familien zu stärken und Eltern die Möglichkeit zu geben, auf die Bedürfnisse ihrer Kinder einzugehen."
+	},
+	"organization": {
+		"smallTitle": "Organisation",
+		"title": "Verankert im Glauben",
+		"text": "Wir sind eine glaubensbasierte Organisation, die den Lehren des Wortes Gottes in der Bibel folgt."
+	},
+	"education": {
+		"title": "Bildung",
+		"text": "Bildung ist eine der effektivsten Präventionsmaßnahmen gegen Drogenmissbrauch, Gewalt, Teenagerschwangerschaften und Schulabbrüche. Daher möchten wir die Schulen und Lernenden vor Ort unterstützen, indem wir Nachmittagsprogramme für Grundschulkinder anbieten."
+	},
+	"family": {
+		"title": "Stärkung der Familien",
+		"text": "Jedes Kind benötigt Liebe und Fürsorge. Starke und gute Bindungen zu Eltern verringern die Gefahr für ein Kind, einen destruktiven Lebensstil zu entwickeln"
+	},
+	"health": {
+		"title": "Gesundheit & Ernährung",
+		"text": "Wir möchten die körperliche, emotionale und geistliche Gesundheit von Kindern und ihren Eltern fördern, um Entwicklung und Entfaltung zu ermöglichen."
+	},
+	"values": {
+		"title": "Unsere Werte",
+		"smallTitle": "Bring ein Kind schon in jungen Jahren auf den richtigen Weg, dann hält es sich auch im Alter daran. Sprüche 22,6",
+		"value_one": "Nach Gottes Wort handeln",
+		"value_one_text": "Wir glauben an den Wert des Wortes Gottes",
+		"value_two": "Andere zuerst",
+		"value_two_text": "Wir schätzen selbstlose Lebensweisen, um einander durch Jesu Christi Vorbild zu dienen",
+		"value_three": "Gemeinsam",
+		"value_three_text": "Wir legen Wert darauf, als Team in Demut zu arbeiten und die Gaben des anderen zu ehren",
+		"value_four": "Familien",
+		"value_four_text": "Wir glauben, dass gesunde Familien eine gesunde Gemeinschaft in einer gottgefälligen Struktur schaffen",
+		"value_five": "Verantwortlichkeit",
+		"value_five_text": "Wir schätzen die Zusammenarbeit mit Menschen von außen, mit Mentoren, Kirchen und weiteren Unterstützern"
+	},
+	"whatwedo": {
+		"title": "Was wir tun",
+		"school_title": "Nachmittagsprogramm",
+		"school_text": "Wir bieten sowohl in Präsenz als auch in E-Learning-Programmen Nachhilfe bei Hausaufgaben und in anspruchsvolleren Fächern an, die von geschulten Mitarbeitern durchgeführt wird. Zudem haben wir eine sichere Umgebung geschaffen, in der unterhaltsame und lehrreiche Spiele gespielt werden können.",
+		"kitchen_title": "Suppenküche",
+		"kitchen_text": "Die Kinder erhalten an jedem Wochentag eine Mahlzeit. Dabei achten wir auf gesunde Ernährung mit frischem Gemüse aus eigenem Anbau.",
+		"family_title": "Stärkung der Familie",
+		"family_text": "Wir bieten Seelsorge, Beratung und Erziehungsprogramme an, insbesondere für junge Eltern, Alleinerziehende und Hinterbliebene. Darüber hinaus bieten wir Schulungen zu Finanzmanagement und praktische Schulungen für arbeitslose Eltern an.",
+		"arts_title": "Kunst und Kultur",
+		"arts_text": "Wir vermitteln den Kindern verschiedene Tanzformen, darunter traditionellen, spirituellen und modernen Tanz. Die Kinder setzen sich auch mit Kunst, Musik und Gesang auseinander. Es ist unsere Vision, dass sich alle Kinder in diesen Bereichen entfalten können. Der Sport hält die Kinder aktiv und körperlich fit, und bereitet ihnen zudem Freude."
+	},
+	"contact": {
+		"smallTitle": "Kontakt",
+		"title": "Kontakt aufnehmen"
+	},
+	"donate": {
+		"smallTitle": "Spenden",
+		"title": "Wie man uns helfen kann",
+		"paypal": "Via PayPal spenden",
+		"bank": "Bankverbindung anzeigen",
+		"payment": "Verwendungszweck"
+	},
+	"socialMedia": {
+		"follow_instagram": "Folge uns auf Instagram"
+	},
+	"footer": {
+		"location": "Auf GoogleMaps anzeigen",
+		"phone": "Anrufen",
+		"mail": "E-Mail senden",
+		"insta": "Auf Instagram folgen",
+		"impressum": "Impressum",
+		"privacy": "Privatsphäre"
+	}
 }
