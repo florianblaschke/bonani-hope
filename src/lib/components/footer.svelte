@@ -1,9 +1,13 @@
 <script lang="ts">
-	import { m } from '$lib/paraglide/messages.js';
-import {TooltipProvider,TooltipContent,TooltipTrigger,Tooltip } from "$lib/components/ui/tooltip"
-import Separator from './ui/separator/separator.svelte';
-import {Mail,Map, Phone , Instagram} from "@lucide/svelte"
-
+import { m } from "$lib/paraglide/messages.js";
+import {
+	TooltipProvider,
+	TooltipContent,
+	TooltipTrigger,
+	Tooltip,
+} from "$lib/components/ui/tooltip";
+import Separator from "./ui/separator/separator.svelte";
+import { Mail, Map, Phone, Instagram } from "@lucide/svelte";
 </script>
 
     <footer class="bg-gray-100 py-6">
@@ -13,14 +17,14 @@ import {Mail,Map, Phone , Instagram} from "@lucide/svelte"
             href="/imprint"
             class="text-sm font-medium text-gray-500 hover:text-gray-900"
           >
-            {m['footer.impressum']}
+            {m['footer.impressum']()}
           </a>
           <Separator orientation="vertical" class="hidden sm:block" />
           <a
             href="/privacy"
             class="text-sm font-medium text-gray-500 hover:text-gray-900"
           >
-            {m["footer.privacy"]}
+            {m["footer.privacy"]()}
           </a>
         </div>
         <div class="flex items-center gap-6 md:gap-12">
@@ -33,11 +37,11 @@ import {Mail,Map, Phone , Instagram} from "@lucide/svelte"
                   class="text-gray-500 hover:text-gray-900"
                 >
                   <Map/>
-                  <span class="sr-only">{m["footer.location"]}</span>
+                  <span class="sr-only">{m["footer.location"]()}</span>
                 </a>
               </TooltipTrigger>
               <TooltipContent class="tracking-tight text-sm leading-snug">
-                {m["footer.location"]}
+                {m["footer.location"]()}
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
@@ -49,11 +53,11 @@ import {Mail,Map, Phone , Instagram} from "@lucide/svelte"
                   class="text-gray-500 hover:text-gray-900"
                 >
                   <Phone/>
-                  <span class="sr-only">{m["footer.phone"]}</span>
+                  <span class="sr-only">{m["footer.phone"]()}</span>
                 </a>
               </TooltipTrigger>
               <TooltipContent class="tracking-tight text-sm leading-snug">
-                {m["footer.phone"]}
+                {m["footer.phone"]()}
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
@@ -65,11 +69,11 @@ import {Mail,Map, Phone , Instagram} from "@lucide/svelte"
                   class="text-gray-500 hover:text-gray-900"
                 >
                   <Mail/>
-                  <span class="sr-only">{m["footer.mail"]}</span>
+                  <span class="sr-only">{m["footer.mail"]()}</span>
                 </a>
               </TooltipTrigger>
               <TooltipContent class="tracking-tight text-sm leading-snug">
-                {m["footer.mail"]}
+                {m["footer.mail"]()}
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
@@ -82,11 +86,11 @@ import {Mail,Map, Phone , Instagram} from "@lucide/svelte"
                   class="text-gray-500 hover:text-gray-900"
                 >
                   <Instagram/>
-                  <span class="sr-only">{m["footer.insta"]}</span>
+                  <span class="sr-only">{m["footer.insta"]()}</span>
                 </a>
               </TooltipTrigger>
               <TooltipContent class="tracking-tight text-sm leading-snug">
-                {m["footer.insta"]}
+                {m["footer.insta"]()}
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
