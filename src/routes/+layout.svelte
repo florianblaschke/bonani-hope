@@ -11,7 +11,12 @@ let { children } = $props();
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 <Navbar/>
-{@render children()}
+  <main class="px-4 md:px-8 py-5 md:py-10">
+    <div class="max-w-screen-xl mx-auto flex flex-col items-center gap-12 md:gap-24 xl:gap-32">
+			{@render children()}
+		</div>
+	</main>
+
 <Footer/>
 <div style="display:none">
 	{#each locales as locale}
