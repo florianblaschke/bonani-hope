@@ -1,6 +1,5 @@
 <script lang="ts">
   import { SheetTrigger, Sheet, SheetContent } from "$lib/components/ui/sheet";
-  import { Button } from "$lib/components/ui/button";
   import { MenuIcon } from "@lucide/svelte";
   import { m } from "$lib/paraglide/messages";
 
@@ -16,10 +15,8 @@
 
 <Sheet bind:open>
   <SheetTrigger>
-    <Button variant="outline" size="icon" class="hover:bg-primary md:hidden">
-      <MenuIcon />
-      <span class="sr-only">Toggle navigation</span>
-    </Button>
+    <MenuIcon />
+    <span class="sr-only">Toggle navigation</span>
   </SheetTrigger>
   <SheetContent side="right">
     <nav class="grid gap-6 text-lg font-medium">
