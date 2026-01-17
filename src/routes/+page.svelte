@@ -1,4 +1,5 @@
 <script>
+  import Contact from "$lib/components/contact.svelte";
   import CookieBanner from "$lib/components/cookie-banner.svelte";
   import Goals from "$lib/components/goals.svelte";
   import Hero from "$lib/components/hero.svelte";
@@ -14,4 +15,5 @@
 <Goals />
 <Value />
 <Whatwedo />
+<Contact />
 <CookieBanner />
