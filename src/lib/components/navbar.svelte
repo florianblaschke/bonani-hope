@@ -13,8 +13,8 @@
 </script>
 
 <header class="sticky top-0 z-50 w-full bg-white shadow-sm">
-  <div class="container mx-auto">
-    <div class="flex h-16 items-center justify-between px-4 md:p-0">
+  <div class="flex items-center justify-center">
+    <div class="flex h-16 items-center justify-between px-4 md:px-20 w-full">
       <a href="/" class="flex items-center gap-2 w-36 overflow-hidden">
         <enhanced:img src="$lib/images/logo_text.webp" alt="Bonani Logo" />
         <span class="sr-only">Bonani Drop in Centre</span>
