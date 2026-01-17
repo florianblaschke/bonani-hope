@@ -6,9 +6,8 @@
   <enhanced:img
     src="$lib/images/ban_yido.webp"
     alt="Hero Image"
-    class="object-cover object-center rounded-xl"
+    class="h-[80vh] object-cover object-center rounded-xl"
     sizes="100vw"
-    placeholder="blur"
   />
   <div class="absolute inset-0 bg-black/50 z-10 rounded-xl"></div>
   <div

@@ -12,30 +12,30 @@
   ];
 </script>
 
-<header
-  class="sticky top-0 z-50 w-full bg-white shadow-sm dark:bg-gray-950 dark:text-gray-50"
->
-  <div class="container flex h-16 items-center justify-between px-4 md:px-6">
-    <a href="/" class="flex items-center gap-2 w-36 overflow-hidden">
-      <enhanced:img src="$lib/images/logo_text.webp" alt="Bonani Logo" />
-      <span class="sr-only">Bonani Drop in Centre</span>
-    </a>
-    <nav class="hidden gap-6 text-sm font-medium md:flex min-w-122.5">
-      <LocaleSwitcher />
-      {#each links as link (link.href)}
-        <a
-          href={link.href}
-          class="inline-flex items-center gap-1 transition-colors hover:text-gray-900 dark:hover:text-gray-50"
-        >
-          {link.title}
-        </a>
-      {/each}
-    </nav>
-    <div class="flex items-center gap-4 md:hidden">
-      <div class="md:hidden">
+<header class="sticky top-0 z-50 w-full bg-white shadow-sm">
+  <div class="container mx-auto">
+    <div class="flex h-16 items-center justify-between px-4 md:p-0">
+      <a href="/" class="flex items-center gap-2 w-36 overflow-hidden">
+        <enhanced:img src="$lib/images/logo_text.webp" alt="Bonani Logo" />
+        <span class="sr-only">Bonani Drop in Centre</span>
+      </a>
+      <nav class="hidden gap-6 text-sm font-medium md:flex min-w-122.5">
         <LocaleSwitcher />
+        {#each links as link (link.href)}
+          <a
+            href={link.href}
+            class="inline-flex items-center gap-1 transition-colors hover:text-gray-900"
+          >
+            {link.title}
+          </a>
+        {/each}
+      </nav>
+      <div class="flex items-center gap-4 md:hidden">
+        <div class="md:hidden">
+          <LocaleSwitcher />
+        </div>
+        <MobileMenu />
       </div>
-      <MobileMenu />
     </div>
   </div>
 </header>

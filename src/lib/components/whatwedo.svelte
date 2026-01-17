@@ -15,7 +15,7 @@
   <div class="space-y-6">
     <div class="grid md:grid-cols-2 gap-8 lg:gap-12 w-full md:min-h-69">
       <div
-        class="flex bg-primary flex-col items-start gap-4 p-6 rounded-lg shadow-md hover:scale-[102%] transition-all duration-150 ease-in-out"
+        class="flex flex-col items-start gap-4 p-6 rounded-lg shadow-md hover:scale-[102%] transition-all duration-150 ease-in-out"
       >
         <div
           class="bg-primary rounded-md flex items-center justify-center aspect-square w-12"
