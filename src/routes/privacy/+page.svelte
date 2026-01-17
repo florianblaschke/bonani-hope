@@ -2,6 +2,10 @@
   import { m } from "$lib/paraglide/messages";
 </script>
 
+<svelte:head>
+  <title>Privacy</title>
+</svelte:head>
+
 <section class="grid items-center gap-8 lg:gap-12">
   <h1 class="text-2xl font-bold tracking-tighter sm:text-3xl md:text-5xl">
     {m["privacy.title"]()}

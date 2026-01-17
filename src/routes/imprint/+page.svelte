@@ -4,6 +4,9 @@
 	import { cn } from "$lib/utils";
 </script>
 
+<svelte:head>
+	<title>Imprint</title>
+</svelte:head>
 <section class="w-full grid items-center gap-8 lg:gap-12 min-h-[75vh]">
 	<h1 class="text-lg font-bold tracking-tighter sm:text-3xl md:text-5xl">
 		{m["imprint.title"]()}

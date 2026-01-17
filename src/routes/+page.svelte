@@ -9,6 +9,10 @@
   import Whatwedo from "$lib/components/whatwedo.svelte";
 </script>
 
+<svelte:head>
+  <title>Bonani Ngcobo</title>
+</svelte:head>
+
 <Hero />
 <SectionLeft />
 <SectionRight />
