@@ -19,12 +19,12 @@
     <span class="sr-only">Toggle navigation</span>
   </SheetTrigger>
   <SheetContent side="right">
-    <nav class="grid gap-6 text-lg font-medium">
+    <nav class="pl-8 grid gap-6 text-lg font-medium pt-12">
       {#each links as link (link.href)}
         <a
           onclick={() => (open = false)}
           href={link.href}
-          class="inline-flex items-center gap-1 transition-colors hover:text-gray-900 dark:hover:text-gray-50"
+          class="inline-flex items-center gap-1 transition-colors hover:text-gray-900 text-foreground"
         >
           {link.title}
         </a>

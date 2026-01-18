@@ -5,7 +5,7 @@
 <section class="relative w-full h-[80vh] min-h-125 overflow-hidden">
   <enhanced:img
     src="$lib/images/ban_yido.webp"
-    alt="Hero Image"
+    alt="Kids running in the sunset"
     class="h-[80vh] object-cover object-center rounded-xl"
     sizes="100vw"
   />
